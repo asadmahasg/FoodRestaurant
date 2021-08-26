@@ -13,19 +13,19 @@
         <div class="topContentScreen">
             <div class="contentInside">
                 <div class="row">
-                    <div class="Column Column-1">
+                    <div class="Column Column-1" id="Column-1">
                         <img src="Images/event.svg" alt="" class="topPics">
                     </div>
-                    <div class="Column Column-2">
+                    <div class="Column Column-2" id="Column-2">
                         <img src="Images/finance.svg" alt="" class="topPics">
                     </div>
-                    <div class="Column Column-1">
+                    <div class="Column Column-1"id="Column-3">
                         <img src="Images/cafe.svg" alt="" class="topPics">
                     </div>
-                    <div class="Column Column-1">
+                    <div class="Column Column-1" id="Column-4">
                         <img src="Images/gift.svg" alt="" class="topPics">
                     </div>
-                    <div class="Column Column-1">
+                    <div class="Column Column-1" id="Column-5">
                         <img src="Images/pets.svg" alt="" class="topPics">
                     </div>
                 </div>
@@ -44,25 +44,25 @@
                 </div>
                 <div class="bottomSide">
                     <div class="rowsBottom">
-                        <div class="contentInRows">
+                        <div class="contentInRows" onmouseover="changeColor('row-1')">
                             <p class="foodName">Pizza</p>
                             <p class="foodQuantity">17</p>
                         </div>
                         
                     </div>
-                    <div class="rowsBottom">
+                    <div class="rowsBottom" onmouseover="changeColor('row-2')">
                         <div class="contentInRows">
                             <p class="foodName">Sushi</p>
                             <p class="foodQuantity">9</p>
                         </div>
                     </div>
-                    <div class="rowsBottom">
+                    <div class="rowsBottom" onmouseover="changeColor('row-3')">
                         <div class="contentInRows">
                             <p class="foodName">Gourmet</p>
                             <p class="foodQuantity">22</p>
                         </div>
                     </div>
-                    <div class="rowsBottom" id="lastItem">
+                    <div class="rowsBottom" id="lastItem" onmouseover="changeColor('row-4')">
                         <div class="contentInRows">
                             <p class="foodName">Drink</p>
                             <p class="foodQuantity">12</p>
@@ -72,5 +72,7 @@
             </div>
         </div>
     </div>
+
+    <script src="JavaScript/script.js"></script>
 </body>
 </html>
